@@ -1,12 +1,4 @@
-package Searcher;
-
-public class BetterSearch extends Searcher {
-
-   public BetterSearch(int[] data) {
-      super(data);
-   }
-
-   @Override
+public class BetterSearch {
    public int search(int k) {
       int midLow, midHigh = 0;
       int low = 0;

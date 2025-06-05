@@ -1,12 +1,4 @@
-package Searcher;
-
-public class BinarySearch extends Searcher {
-
-    public BinarySearch(int[] data) {
-        super(data);
-    }
-
-    @Override
+public class BinarySearch {
     public int search(int k) {
         int mid = 0;
         int low = 0;
